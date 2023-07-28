@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "~/components/ui/card"
 import { Separator } from "~/components/ui/separator"
-// import ThemeMenuButton from '~/components/themeMenuButton'
+import ThemeMenuButton from "~/components/themeMenuButton"
 // import CreateRoomForm from '~/components/createRoomForm'
 // import JoinRoomButton from '~/components/joinRoomButton'
 
@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <div className="flex h-screen flex-col items-center justify-between pb-5 pt-[13vh]">
-      {/* <ThemeMenuButton className='fixed right-[5vw] top-5 flex-1 md:right-5' /> */}
+      <ThemeMenuButton className="fixed right-[5vw] top-5 flex-1 md:right-5" />
 
       <Card className="w-[90vw] max-w-[400px]">
         <CardHeader>
